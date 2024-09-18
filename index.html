@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Gate-In</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Company Logo" />
+        </div>
+        <div class="gate-in">
+            <h2 id="gateInTitle" onclick="openGateInForm()">Click here for Container Gate-In</h2>
+            <div id="gateInForm" class="hidden">
+                <label for="containerId">Enter Container ID:</label>
+                <input type="text" id="containerId" placeholder="Type container ID... (letters and numbers)">
+                <button onclick="submitGateIn()">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
